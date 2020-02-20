@@ -10,7 +10,7 @@ class ProjectSchema extends Schema {
         .integer('user_id')
         .unsigned()
         .references('id')
-        .inTabe('users')
+        .inTable('users')
         .onUpdate('CASCADE')
         .onDelete('SET NULL')
       table.string('title').notNullable()
