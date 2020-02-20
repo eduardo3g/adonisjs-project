@@ -14,7 +14,9 @@ Route.get('/files/:id', 'FileController.show')
 Route.group(() => {
   Route.post('/files', 'FileController.store')
 
+  // Run "adonis route:list" command to view routes
   Route.resource('projects', 'ProjectController').apiOnly()
+  Route.resource('projects.tasks', 'TaskController').apiOnly()
 }).middleware('auth')
 
 
