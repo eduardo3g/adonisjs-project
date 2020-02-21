@@ -47,7 +47,7 @@ Or it NPM fits better for your, just run the command:
 ```bash
 npm install
 ```
-Onde you have all the dependencies installed, run the migrations to startup your PostgreSQL database.
+Once you have all the dependencies installed, run the migrations to startup your PostgreSQL database.
 ```js
 adonis migration:run
 ```
