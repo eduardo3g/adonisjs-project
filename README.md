@@ -43,7 +43,7 @@ If you're a yarn user:
 ```bash
 yarn install
 ```
-Or it NPM fits better for your, just run the command:
+However, if NPM fits better for you, just run the command:
 ```bash
 npm install
 ```
